@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<pages>
+	<page>
+		<name>Home</name>
+		<url>index.php</url>
+		<status>live</status>
+	</page>
+	
+	<page>
+		<name>About Beer</name>
+		<url>index.php?page=about_beer</url>
+		<status>live</status>
+		
+		<page>
+			<name>Beer Types</name>
+			<url>index.php?page=beer_types</url>
+			<status>live</status>
+		</page>
+		<page>
+			<name>Glassware</name>
+			<url>index.php?page=glassware</url>
+			<status>live</status>
+		</page>
+		
+		<page>
+			<name>Equipment</name>
+			<url>index.php?page=equipment</url>
+			<status>live</status>
+		</page>
+		
+		<page>
+			<name>Useful Links</name>
+			<url>index.php?page=useful_links</url>
+			<status>live</status>
+		</page>
+	</page>
+	
+	<page>
+		<name>Beer Notes</name>
+		<url>index.php?page=beer_notes</url>
+		<status>live</status>
+	</page>	
+	
+	<page>
+		<name>Feedback</name>
+		<url>index.php?page=feedback</url>
+		<status>live</status>
+	</page>
+	
+	<page>
+		<name>Sitemap</name>
+		<url>index.php?page=sitemap</url>
+		<status>live</status>
+	</page>
+	
+	<page>
+		<name>My Page</name>
+		<url>index.php?page=user_info</url>
+		<status>live</status>
+		
+		<page>
+			<name>User Info</name>
+			<url>index.php?page=user_info</url>
+			<status>live</status>
+		</page>
+		
+		<page>
+			<name>My Notes</name>
+			<url>index.php?page=my_notes</url>
+			<status>live</status>
+		</page>
+	</page>
+</pages>

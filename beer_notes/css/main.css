@@ -1,0 +1,303 @@
+@font-face {
+    font-family: Code_Pro_Demo;
+    src: url(../fonts/Code_Pro_Demo.otf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+/* margin zeros */
+h1, h2, .user_info, p.user_info, #nav_top, #nav_top li ul, .user_info_form p, #personal_info, #glassware p, body, html    {	
+	margin: 0px;
+}
+
+/* padding zeros */
+h1, h2, img, body, html, #nav_top, #nav_top li ul   {	
+	padding: 0px;
+}
+
+/* float rights */
+.search, .beer_note_content_comment_date,#home #recently_added, #home #recently_added p, #sidebar_right, #login, #login_form, #button_add_new, #glassware img  {
+	float: right;
+	
+}
+
+/* float lefts */
+h1.beer_search, #home #news, #beer_note_content p , #sidebar_left, .user_info_form input[type=submit], img.user_info, #content_main , #personal_info, td.beer_note_content_image , #glassware p{
+	float: left;
+}
+
+/* clear lefts */
+p.user_info, footer, #glassware h2 {
+	clear: both;
+}
+
+/* backgrounds */
+#nav_top #user_info ul.dropdown, #user_info{
+    background: #FFCC00;
+}
+
+#login_form {
+	margin-right: 0px;
+	background: #AC8330;
+	padding: 5px;
+}
+
+#news {
+	width: 55%;
+}
+
+body, html {
+	background: grey;
+	font-family: Lato-Regular;
+}
+
+h1 {
+	margin-bottom: 5px;
+}
+
+p {
+	font-family: Lato-Regular;
+}
+
+a {
+	text-decoration: none;
+	color: #990000;
+}
+
+img {
+	margin-bottom: -4px;
+}
+
+footer {	
+	background: #990000;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.beer_search {
+	clear:both;
+}
+
+.beer_search td {
+	text-align:left;
+	vertical-align: top;
+	padding-top: 0px;
+}
+
+#beer_note_content p {
+	margin-top: 0px;
+	background: #B48F45;
+	width: 100%;
+}
+
+#beer_note_content td {
+	vertical-align: top;
+	background: #B48F45;
+}
+
+img.beer_note_content_image {
+	max-width: 300px;
+	max-height: 300px;
+	min-height: 300px;
+}
+
+td.beer_note_content_image {	
+	max-height: 300px;
+	text-align: center;
+	width: 300px;
+	margin-right: 5px;	
+}
+
+td.beer_search_picture {
+	margin: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#beer_note_content {
+	overflow: hidden;
+}
+
+#beer_note_content_details {
+	width: 100%;
+}
+
+p.beer_note_content_description {
+	padding-left: 5px;	
+}
+
+.beer_note_description {
+	width: 300px;
+}
+
+#beer_note_content p.beer_note_content_comment_userid{
+	background: #AC8330;
+	margin-bottom: 1px;
+}
+
+#beer_note_content table {
+	margin-bottom: 5px;
+}
+
+form.beer_search {
+	clear: both;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.beer_search img {
+	height: 100px;	
+}
+
+.beer_name {
+	font-size: 18px;	
+}
+
+img.rating {
+	height: 20px;
+	margin-right: 0px;
+}
+
+.user_info_form p {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: -2px;
+}
+
+.user_info_form input[type=submit] {
+	display: inline-block;
+	padding: 4px 16px;
+	height: 35px;
+	background: #f85f5f  repeat-x;
+	background: -moz-linear-gradient(#900, #f85f5f);
+	background:    -o-linear-gradient(#900, #f85f5f);
+	background:    -webkit-linear-gradient(#900, #f85f5f);
+	background:    linear-gradient(#900, #f85f5f);
+	border-radius: 5px;
+	color:         #fc0;
+	font:          normal 700 20px/1 "Calibri", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #000;
+	margin-top: 5px;
+	margin-right: 5px;	
+}
+
+.user_info_form input[type=text], .user_info_form input[type=password]{	
+	width: 97.5%;
+}
+
+img.user_info {	
+	margin: -1px;
+	height: 30%;
+}
+
+img.delete_cross {
+	height: 20px;
+}
+
+#personal_info {
+	padding-left: 10px;
+	height: 20%;	
+}
+
+#content_main {		
+    margin-left: auto;
+	margin-right: auto;	
+	width:69%;
+	background: #AC8330;
+	padding-bottom: 18px;
+	min-height: 100vh;
+}
+
+#content_main > div {
+	margin-top: 18px;
+	margin-left: 30px;
+	margin-right: 30px;	
+}
+
+#sidebar_left, #sidebar_right  {
+	min-width: 15%;
+	max-width: 15%;
+	margin-top: 0px;	
+}
+
+#sidebar_right  img{
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	width: 160px;
+	height:270px;
+}
+
+#sidebar_left {	
+	padding: 5px;	
+}
+
+#nav_top, #nav_top li ul {
+    list-style: none;
+    background: #990000;
+}
+#nav_top li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+
+#nav_top li a {
+    display: block;
+    padding: 8px 25px;
+    color: #FFCC00;
+    text-decoration: none;
+}
+
+#update_info_button {
+	height: 30px;
+	margin-top: 5px;
+}
+
+#nav_top #user_info  a{
+	color: #990000;
+}
+
+#nav_top li a:hover{
+    color: #fff;
+    background: #939393;
+}
+
+#nav_top li ul.dropdown{
+    min-width: 125px; /* Set width of the dropdown */
+    background: #990000;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+
+#nav_top li:hover ul.dropdown, #nav_top li ul.dropdown li {
+    display: block;	/* Display the dropdown */
+}
+
+#button_add_new {	
+	height: 6%;
+}
+
+#banner_top {
+	background: #996600;
+}
+
+#glassware p {
+
+	margin-bottom: 20px;
+	width: 78%;
+}
+
+#useful_links h2 {
+	margin-top: 15px;
+}

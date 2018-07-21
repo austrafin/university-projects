@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Beer Notes</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="user_info_form">
+		<a href="index.php">Home</a> > Feedback
+		<h1>Feedback</h1>
+		<p>You can <a href="mailto:support@beernotes.com">email</a> us or fill out the form below:</p>
+		<form method="post" action="index.php?page=feedback_received">
+			<table>
+				<tr><td colspan="3"><p>What is the feedback about:</p></td></tr>
+				<tr>
+					<td>
+						<select name="feedback_type">
+							<option value="5">Suggestion</option>
+							<option value="4">Technical Issue</option>
+							<option value="3">Question</option>
+							<option value="2">Marketing</option>
+							<option value="1">Other</option>
+						</select>	
+					</td>
+				</tr>
+				<tr><td colspan="3"><p>Name:</p></td></tr>
+				<tr><td colspan="3"><input type = "text" name = "name"></td></tr>
+				<tr><td colspan="3"><p>Email:</p></td></tr>
+				<tr><td colspan="3"><input type = "text" name = "name"></td></tr>
+				<tr><td colspan="3"><p>Message:</p></td></tr>
+				<tr><td colspan="3"><textarea class="beer_note_description" name = "message"></textarea></td></tr>
+
+			</table>
+			
+			<input type = "submit" value = "Send">
+		</form>
+	</div>
+
+</body>
+</html>

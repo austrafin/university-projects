@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<beer_note id="Beer Note20151011032300">
+
+<note_content>
+	<image>
+		<source>images/heineken.jpg</source>
+	</image>
+	<name>Heineken</name>
+	<brewery>Heineken Brewery</brewery>
+	<glass>Pint</glass>
+	<pubdate>30 June 2009</pubdate>
+	<userid>beer_lover</userid>
+	<look>Small head, brown, bubbly</look>
+	<nose>Citrus, smoke</nose>
+	<taste>Chocolate, smoke</taste>
+	<rating>3</rating>
+	<description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat nunc non vehicula aliquet. Etiam nec ex mattis, blandit erat ac, ullamcorper tellus. Sed malesuada quam ut mauris luctus posuere. Morbi ac nisl tincidunt, laoreet dui vitae, pellentesque libero. Mauris porttitor sem nec magna accumsan vulputate. Nam sit amet lectus magna. Aliquam eget magna nisl. Nunc in lobortis odio. Curabitur varius, justo in rutrum placerat, ante justo commodo nunc, quis condimentum nibh nisl a dolor. Nullam bibendum ex sit amet mi efficitur tristique. Proin mattis nulla enim, sed convallis neque rutrum nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vel ornare risus. Duis mollis pulvinar tristique. Donec eu ipsum nisi.</description>
+	<comments>
+		<comment>
+			<userid>Johnnie</userid>
+			<pubdate>12 October 2010</pubdate>
+			<content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat nunc non vehicula aliquet.</content>
+		</comment>
+	</comments>
+</note_content>
+
+<keywords>
+	<keyword>lager</keyword>
+</keywords>
+
+<private></private>
+<status>live</status>
+
+</beer_note>
