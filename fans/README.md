@@ -1,0 +1,2 @@
+This is the first assignment of the Interactive Computer Systems topic I took. It is purely an excercise on creating graphical user interfaces using Java Swing.
+To run the program, just compile and run FanControl.java. The user manual can be accessed in the program from the 'Help' top bar menu.
